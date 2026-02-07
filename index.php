@@ -1,12 +1,14 @@
-<? echo "
-    /\\_/\\  
-   ( o.o ) 
-    > ^ 
-   /|   |\\
-  (_|   |_)
+<?php
+$cat = "    /\\_/\\  " . PHP_EOL;
+$cat .= "   ( o.o ) " . PHP_EOL;
+$cat .= "    > ^ <" . PHP_EOL;
+$cat .= "   /|   |\\" . PHP_EOL;
+$cat .= "  (_|   |_)" . PHP_EOL;
+$cat .= "" . PHP_EOL;
+$cat .= "   Meow! 🐱" . PHP_EOL;
 
-   Meow! 🐱
-";  ?>
+echo $cat;
+?>
 
 <? phpinfo(); ?>
 
