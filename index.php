@@ -1,8 +1,4 @@
-<?php
-$cat .= "   Meow! 🐱" . PHP_EOL;
-echo $cat;
-?>
-
+Meow! 🐱
 <? phpinfo(); ?>
 
 <?php
